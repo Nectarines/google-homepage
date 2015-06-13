@@ -1,0 +1,124 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+#container {
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	height: 40px;
+	display: block;
+}
+
+#header>ul {
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+}
+
+#header>ul>li {
+	padding: 3px;
+	margin: 2px;
+}
+
+li {
+	font-size: 12px;
+	list-style-type: none;
+	display: inline;
+}
+
+#content {
+	padding-bottom: 40px;
+	display: block;
+}
+
+img {
+	width: 269px;
+	height: 95px;
+	display: block;
+	margin: 15px auto;
+	margin-top: 110px;
+}
+
+#searchbar {
+	width: 550px;
+	height: 30px;
+	margin: 10px auto;
+}
+
+#searchbar>form>input {
+	width: 530px;
+	height: 20px;
+	margin: 0px auto;
+}
+
+#buttons {
+	width: 248px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#buttons>form {
+	border-radius: 2px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#google_search {
+	width: 110px;
+	height: 29px;
+	background-color: #F5F5F5;
+	display: inline;
+}
+
+#lucky {
+	width: 130px;
+	height: 29px;
+	background-color: #F5F5F5;
+	display: inline;
+}
+
+
+#footer {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: #F2F2F2;
+}
+
+#footer>ul {
+	margin: 3px;
+	padding: 2px;
+	text-align: center;
+}
+
+#l_foot {
+	min-width: 200px;
+	height: 30px;
+	float: left;
+}
+
+#r_foot {
+	margin-right: 18px;
+	min-width: 200px;
+	height: 30px;
+	float: right;
+}
+
+#l_foot>ul>li, #r_foot>ul>li {
+	padding-left: 3px;
+	padding-right: 3px;
+}
